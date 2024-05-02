@@ -36,7 +36,12 @@ now the new line will be added:
 git clone <partner url>
 cd <name of repo>
 git clone<url>
-git remote add substream<>
+git remote add upstream<>
+
+or
+
+git remote add upstream <url>  or  git add remote upstream <url>
+git fetch upstream 
 
 6th:
 git init
@@ -53,3 +58,7 @@ git config --global alias.st status
 git st 
 git config --global alias.br branch
 git br
+
+or
+
+git add submodule <url>  or  git submodule add <url>
