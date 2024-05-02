@@ -33,15 +33,10 @@ git push origin main
 now the new line will be added:
 
 5th (collaborators):
-git clone <partners url>
-ls
-cd <name in ls>
-git remote -v
-git remote add upstream <my url>
-git fetch upstream
-git branch
-git merge upstream/master
-git push origin
+git clone <partner url>
+cd <name of repo>
+git clone<url>
+git remote add substream<>
 
 6th:
 git init
